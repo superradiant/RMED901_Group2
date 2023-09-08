@@ -116,7 +116,5 @@ coef_var <- function(x){
   return(sd(x, na.rm = T) / mean(x, na.rm = T))
 }
 
-weightmean <- function(x,w){
-  return(sum(x*w)/sum(w))
 }
-weightmean(c(1.3, 2.7, 4.5), c(5,6,7))
+weightmean(c(1.3, 2.7, 4.5), c(5,6,7))# doesn't work, needs to be fixed
