@@ -29,3 +29,4 @@ check_input <- function(
   return(output)
 }
 check_input(1)
+check_input(2)
